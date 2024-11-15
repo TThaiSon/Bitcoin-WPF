@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FF720636-F6DE-46A2-8400-79C096192207}|BitcoinPriceViewer\\BitcoinPriceViewer.csproj|d:\\fpt\\semester 7\\prn221\\bitcoin\\bitcoinpriceviewer\\bitcoinpriceviewer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FF720636-F6DE-46A2-8400-79C096192207}|BitcoinPriceViewer\\BitcoinPriceViewer.csproj|solutionrelative:bitcoinpriceviewer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF720636-F6DE-46A2-8400-79C096192207}|BitcoinPriceViewer\\BitcoinPriceViewer.csproj|d:\\fpt\\semester 7\\prn221\\bitcoin\\bitcoinpriceviewer\\bitcoinpriceviewer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF720636-F6DE-46A2-8400-79C096192207}|BitcoinPriceViewer\\BitcoinPriceViewer.csproj|solutionrelative:bitcoinpriceviewer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -89,20 +85,7 @@
               "ToolTip": "D:\\FPT\\Semester 7\\PRN221\\Bitcoin\\BitcoinPriceViewer\\BitcoinPriceViewer\\MainWindow.xaml",
               "RelativeToolTip": "BitcoinPriceViewer\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-14T04:31:23.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\FPT\\Semester 7\\PRN221\\Bitcoin\\BitcoinPriceViewer\\BitcoinPriceViewer\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "BitcoinPriceViewer\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\FPT\\Semester 7\\PRN221\\Bitcoin\\BitcoinPriceViewer\\BitcoinPriceViewer\\MainWindow.xaml.cs",
-              "RelativeToolTip": "BitcoinPriceViewer\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAMABAAAAAAAAAAAYwNQBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T13:26:11.088Z",
+              "WhenOpened": "2024-11-15T07:15:24.453Z",
               "EditorCaption": ""
             }
           ]
