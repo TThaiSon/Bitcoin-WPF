@@ -1,0 +1,32 @@
+﻿<Window x:Class="BitcoinPriceViewer.Market"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BitcoinPriceViewer"
+        mc:Ignorable="d"
+        Title="Market" Height="1920" Width="1080">
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Margin" Value="5" />
+            <Setter Property="Foreground" Value="White" />
+        </Style>
+    </Window.Resources>
+
+    <Grid Background="#121212" Height="auto">
+        <DataGrid x:Name="CryptoDataGrid" 
+                  AutoGenerateColumns="False" 
+                  HeadersVisibility="Column" 
+                  Background="#1C1C1E" 
+                  Foreground="White"
+                  IsReadOnly="True"
+                  RowBackground="#2A2A2C"
+                  AlternatingRowBackground="#1C1C1E">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*" />
+                <DataGridTextColumn Header="Price" Binding="{Binding Price}" Width="*" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

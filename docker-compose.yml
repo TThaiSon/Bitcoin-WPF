@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+  bitcoin-price-fetcher:
+    build: ./BitcoinPriceFetcher/BitcoinPriceFetcher 
+    depends_on:
+      - redis 
+  # bitcoin-price-viewer:
+  #   build: ./BitcoinPriceViewer/BitcoinPriceViewer 
+  #   ports:
+  #     - "8080:8080" 
+  #   depends_on:
+  #     - redis
