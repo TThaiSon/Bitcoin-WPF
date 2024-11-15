@@ -6,9 +6,12 @@ using Newtonsoft.Json;
 using ServiceStack.Redis;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Media;
 using System.Windows.Threading;
 
 namespace BitcoinPriceViewer
@@ -465,6 +468,26 @@ namespace BitcoinPriceViewer
 
             // Nếu không có, trả về hình ảnh mặc định
             return "https://bin.bnbstatic.com/static/assets/logos/BTC.png";
+        }
+
+        public class ValueToColorConverter : IValueConverter
+        {
+            public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+            {
+                if (value is double priceChangePercent)
+                {
+                    if (priceChangePercent < 0)
+                        return new SolidColorBrush(Colors.Red);
+                    else
+                        return new SolidColorBrush(Color.FromArgb(255, 14, 203, 129)); // #0ecb81 xanh lá
+                }
+                return new SolidColorBrush(Colors.White); // Mặc định màu trắng
+            }
+
+            public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+            {
+                throw new NotImplementedException();
+            }
         }
     }
 }
